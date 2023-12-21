@@ -46,7 +46,7 @@ https://github.com/HaiIamD/EtherealRhythmsD/assets/95232841/d18cba93-fb72-4347-8
 
 
 Support and Feedback
-Have questions or suggestions? We're here to help! Reach out to us through email or create an issue on GitHub. Your feedback shapes the future of EtherealRhythmsD.
+Have questions or suggestions? We're here to help!
 
 email : dimmts19@gmail.com
 
