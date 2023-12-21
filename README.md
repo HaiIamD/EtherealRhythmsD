@@ -50,3 +50,7 @@ Have questions or suggestions? We're here to help!
 
 email : dimmts19@gmail.com
 
+
+<h5>All image assets can be viewed in the source.html</h5>
+
+<h3>See you 👋</h3>
