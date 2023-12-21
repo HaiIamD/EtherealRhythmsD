@@ -1,0 +1,516 @@
+body {
+  background-color: black;
+}
+.upper {
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  color: white;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.upper1 {
+  height: 250px;
+  width: 1200px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.favorite {
+  height: 240px;
+  width: 260px;
+  font-family: Epilogue;
+  text-align: center;
+}
+.favoriteButton {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 20px;
+  height: 80px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.favoritea {
+  background-color: transparent;
+  font-style: ;
+  height: 80px;
+}
+.inigambar {
+  height: 250px;
+  width: 250px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.inigambar:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.namaartisdandesk {
+  padding: 30px;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.namaartis {
+  font-family: Epilogue;
+  font-size: 50px;
+}
+.deskripsisartis {
+  text-align: justify;
+  float: right;
+  width: 1200px;
+  height: 1200px;
+}
+.deskripsisartis1 {
+  text-align: justify;
+  overflow: scroll;
+  height: 140px;
+}
+.deskripsisartis1::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+}
+.kotakgambarbanyak {
+  width: 1400px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+  overflow: scroll;
+}
+.kotakgambarbanyak::-webkit-scrollbar {
+  width: 0;
+}
+.kotakkecil {
+  background-color: #ffffff;
+  height: 400px;
+  width: 280px;
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.kotakgambar {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+}
+.tulisankotak {
+  font-family: Epilogue;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  text-align: start;
+}
+.tulisankotak1 {
+  font-family: Epilogue;
+  font-size: 9px;
+  color: #6b6b6b;
+  margin-bottom: 2px;
+  text-align: start;
+}
+
+.buttonfav {
+  background-color: #1db954;
+  width: 250px;
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+}
+
+/* Audio */
+audio {
+  width: 250px;
+  margin-bottom: -5px;
+  background-color: transparent;
+  border-radius: 10px;
+
+  padding: 15px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: 2px solid black;
+  padding: 0;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+  background-color: #1db954;
+  border-radius: 4px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  width: 70%;
+}
+audio::-webkit-media-controls-timeline {
+  width: 60px; /* Tinggi bar panjang lagu */
+}
+/* End Audio */
+.fotter {
+  background-color: #000000;
+  padding-top: 40px;
+  margin-top: 100px;
+  height: 200px;
+
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fotter::-webkit-scrollbar {
+  width: 0;
+}
+#fotter1 {
+  float: left;
+  font-size: 10px;
+  height: 100px;
+  width: 300px;
+  overflow-wrap: break-word;
+}
+#fotter2 {
+  font-size: 10px;
+  text-align: start;
+  height: 200px;
+  width: 400px;
+  overflow-wrap: break-word;
+}
+.listplay {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Epilogue;
+}
+@media (max-width: 1600px) {
+  .favorite {
+    height: 120px;
+    width: 120px;
+    margin-top: -460px;
+    margin-left: 650px;
+  }
+}
+@media (max-width: 1200px) {
+  .namaartis {
+    font-size: 30px;
+  }
+  .deskripsisartis1 {
+    font-size: 12px;
+    width: 700px;
+  }
+  .inigambar {
+    height: 200px;
+    width: 200px;
+  }
+  .favorite {
+    height: 120px;
+    width: 120px;
+    margin-top: -500px;
+    margin-left: 680px;
+  }
+  .favoriteButton {
+    font-size: 15px;
+    height: 80px;
+    width: 180px;
+  }
+  .favoritea {
+    height: 50px;
+  }
+  .listplay {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1008px) {
+  .namaartis {
+    font-size: 40px;
+  }
+  .deskripsisartis1 {
+    font-size: 12px;
+    width: 500px;
+  }
+  .inigambar {
+    height: 150px;
+    width: 150px;
+  }
+  .kotakkecil {
+    height: 310px;
+    width: 200px;
+    margin: 30px;
+  }
+  .kotakgambar {
+    height: 150px;
+    width: 150px;
+  }
+  .tulisankotak {
+    font-size: 15px;
+  }
+  .tulisankotak1 {
+    font-size: 7px;
+  }
+  audio {
+    width: 150px;
+    height: 40px;
+
+    padding: 10px;
+  }
+  .buttonfav {
+    width: 150px;
+    height: 20px;
+  }
+  .buttonfav {
+    font-size: 10px;
+  }
+
+  #fotter1 {
+    font-size: 7px;
+    height: 100px;
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 7px;
+    text-align: start;
+    height: 180px;
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 1005px) {
+  .favorite {
+    height: 120px;
+    width: 120px;
+    margin-top: -480px;
+    margin-left: 450px;
+  }
+}
+
+@media (max-width: 734px) {
+  .namaartis {
+    font-size: 15px;
+  }
+  .deskripsisartis1 {
+    font-size: 8px;
+    width: 300px;
+  }
+  .inigambar {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+  }
+  .namaartisdandesk {
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+  .upper1 {
+    height: 180px;
+    width: 1200px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .upper {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotakkecil {
+    height: 215px;
+    width: 150px;
+    margin: 20px;
+  }
+  .kotakgambar {
+    height: 100px;
+    width: 100px;
+  }
+  .tulisankotak {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .tulisankotak1 {
+    font-size: 5px;
+  }
+  audio {
+    width: 100px;
+    height: 30px;
+
+    padding: 5px;
+  }
+  audio::-webkit-media-controls-timeline {
+    width: 30px; /* Tinggi bar panjang lagu */
+  }
+  .buttonfav {
+    width: 100px;
+    height: 15px;
+  }
+  .buttonfav {
+    font-size: 7px;
+  }
+  .buttonfav svg {
+    width: 10px;
+  }
+  .fotter {
+    background-color: #000000;
+    padding-top: 40px;
+    margin-top: 30px;
+    height: 100px;
+  }
+  #fotter1 {
+    font-size: 6px;
+    height: 100px;
+    width: 100px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 6px;
+    text-align: justify;
+    height: 150px;
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+  .favorite {
+    height: 120px;
+    width: 120px;
+    margin-top: -250px;
+    margin-left: 150px;
+  }
+  .favoriteButton {
+    font-size: 10px;
+    height: 30px;
+    width: 180px;
+  }
+  .favoritea {
+    height: 20px;
+  }
+  .listplay {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 478px) {
+  .namaartis {
+    font-size: 10px;
+  }
+  .deskripsisartis1 {
+    font-size: 6px;
+    width: 200px;
+  }
+  .inigambar {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  }
+  .namaartisdandesk {
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+  .upper1 {
+    height: 180px;
+    width: 1200px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .upper {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotakkecil {
+    height: 200px;
+    width: 130px;
+    margin: 20px;
+  }
+  .kotakgambar {
+    height: 90px;
+    width: 90px;
+  }
+  .tulisankotak {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .tulisankotak1 {
+    font-size: 5px;
+  }
+  audio {
+    width: 80px;
+    height: 20px;
+    padding: 3px;
+  }
+  audio::-webkit-media-controls-timeline {
+    width: 40px; /* Tinggi bar panjang lagu */
+  }
+  .buttonfav {
+    width: 80px;
+    height: 15px;
+  }
+  .buttonfav {
+    font-size: 5px;
+  }
+  .buttonfav svg {
+    width: 7px;
+  }
+  .fotter {
+    background-color: #000000;
+    padding-top: 40px;
+    margin-top: 20px;
+    height: 100px;
+  }
+  #fotter1 {
+    font-size: 5px;
+    height: 80px;
+    width: 80px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 5px;
+    text-align: justify;
+    height: 100px;
+    width: 230px;
+    overflow-wrap: break-word;
+  }
+  .favorite {
+    height: 120px;
+    width: 120px;
+    margin-top: -255px;
+    margin-left: 150px;
+  }
+  .favoriteButton {
+    font-size: 8px;
+    height: 20px;
+    width: 180px;
+  }
+  .favoritea {
+    height: 10px;
+  }
+}

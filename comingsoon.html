@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="style/comingsoon.css" />
+  </head>
+  <body>
+    <div class="coming-soon-container">
+      <div class="content">
+        <h1 id="comingSoonText" class="animated fadeIn">Coming Soon</h1>
+        <p>Subscribe to get notified when we launch!</p>
+        <div class="subscribe-form">
+          <input id="email" type="email" placeholder="Enter your email" />
+          <button onclick="subscribe()">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <script>
+    function subscribe() {
+      const emailInput = document.querySelector('input');
+      alert(`Thank you for subscribing with email: ${emailInput.value}`);
+      // You can add additional logic to handle the subscription (e.g., send data to a server).
+    }
+  </script>
+</html>

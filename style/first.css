@@ -1,0 +1,413 @@
+body {
+  background-color: #010101;
+}
+.hapusdecoration {
+  text-decoration: none;
+  color: #000000;
+}
+.navbar-brand {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+  border: none;
+  border-radius: 20px;
+  border: none;
+  border-radius: 20px;
+  height: 70px;
+  margin: 20px;
+}
+.btn-outline-danger {
+  border: none;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #000000;
+}
+.btn-outline-danger:hover {
+  background-color: rgb(66, 159, 226);
+}
+
+/* main section */
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.divimage {
+  height: 500px;
+  width: 600px;
+  text-align: center;
+}
+.divimage img {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.divimage:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.top3 {
+  color: rgb(255, 255, 255);
+  font-family: Epilogue;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+.figure-caption {
+  color: white;
+}
+.topalbum {
+  color: white;
+  font-family: Epilogue;
+  font-size: 30px;
+}
+.topalbum1 {
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recomendation {
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+  height: 450px;
+  width: 1800px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+
+  justify-content: center;
+  margin: 50px;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.recomendation::-webkit-scrollbar {
+  width: 0;
+}
+
+.divgambarr {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  height: 370px;
+  width: 250px;
+  text-align: center;
+  margin: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
+.divgambarr:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.gambarr {
+  height: 250px;
+  width: 200px;
+  padding-top: 40px;
+}
+#ngatur2 {
+  display: flex;
+  justify-content: center;
+}
+.deskripsi {
+  float: left;
+  font-size: 10px;
+  height: 100px;
+  width: 60px;
+  overflow: auto;
+}
+.deskripsi2 {
+  font-size: 10px;
+  text-align: justify;
+  height: 100px;
+  width: 170px;
+  overflow-wrap: break-word;
+}
+#ininama {
+  font-family: Epilogue;
+  padding: 10px;
+  margin-bottom: -10px;
+}
+.fotter {
+  background-color: #363636;
+  padding-top: 40px;
+  margin-top: 100px;
+  height: 200px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+}
+.fotter::-webkit-scrollbar {
+  width: 0;
+}
+#fotter1 {
+  float: left;
+  font-size: 10px;
+  height: 100px;
+  width: 300px;
+  overflow-wrap: break-word;
+}
+#fotter2 {
+  font-size: 10px;
+  text-align: start;
+  height: 200px;
+  width: 600px;
+  overflow-wrap: break-word;
+}
+@media (max-width: 1240px) {
+  .divimage {
+    height: 400px;
+    width: 500px;
+    text-align: center;
+  }
+  .fotter {
+    height: 170px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 10px;
+    height: 100px;
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 10px;
+    text-align: start;
+    height: 80px;
+    width: 600px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 1040px) {
+  .divimage {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+  }
+  .topalbum {
+    color: white;
+    font-family: Epilogue;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .fotter {
+    height: 170px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 8px;
+    height: 80px;
+    width: 230px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 8px;
+    text-align: start;
+    height: 80px;
+    width: 600px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 910px) {
+  .divimage {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+  }
+  .topalbum {
+    color: white;
+    font-family: Epilogue;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .fotter {
+    height: 300px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 8px;
+    height: 100px;
+    width: 100px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 8px;
+    text-align: justify;
+    height: 50px;
+    width: 400px;
+    overflow-wrap: break-word;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    color: white;
+  }
+}
+@media (max-width: 644px) {
+  .divimage {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  .topalbum {
+    color: white;
+    font-family: Epilogue;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .fotter {
+    height: 300px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 8px;
+    height: 80px;
+    width: 250px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 8px;
+    text-align: justify;
+    height: 80px;
+    width: 500px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 537px) {
+  .divimage {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  .topalbum {
+    color: white;
+    font-family: Epilogue;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .fotter {
+    height: 300px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 8px;
+    height: 20px;
+    width: 150px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 8px;
+    text-align: justify;
+    height: 80px;
+    width: 500px;
+    padding: 20px;
+    overflow-wrap: break-word;
+  }
+  .navbar-brand {
+    font-size: 12px;
+    color: white;
+  }
+}
+@media (max-width: 439px) {
+  .top3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+  }
+  .navbar-brand {
+    font-size: 10px;
+    color: white;
+  }
+  .btn-outline-danger {
+    font-size: 10px;
+  }
+  .btn-outline-danger svg {
+    height: 10px;
+  }
+  .divimage {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  .divgambarr {
+    border-radius: 10px;
+    height: 220px;
+    width: 150px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .gambarr {
+    height: 120px;
+    width: 120px;
+    padding-top: 7px;
+  }
+  #ininama {
+    font-size: 10px;
+  }
+  .deskripsi {
+    font-size: 7px;
+  }
+  .deskripsi2 {
+    font-size: 9px;
+  }
+
+  .fotter {
+    height: 300px;
+    overflow: hidden;
+  }
+  #fotter1 {
+    float: left;
+    font-size: 8px;
+    height: 20px;
+    width: 150px;
+    overflow-wrap: break-word;
+  }
+  #fotter2 {
+    font-size: 8px;
+    text-align: justify;
+    height: 80px;
+    width: 500px;
+    padding: 20px;
+    overflow-wrap: break-word;
+  }
+}

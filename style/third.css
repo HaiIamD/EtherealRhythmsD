@@ -1,0 +1,366 @@
+body {
+  background-color: black;
+}
+.upper {
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.upper1 {
+  height: 250px;
+  width: 1200px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.namaartisdandesk {
+  padding: 30px;
+  padding-top: 10px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.namaartis {
+  font-family: Epilogue;
+  font-size: 50px;
+}
+.deskripsisartis {
+  text-align: justify;
+  float: right;
+  width: 1200px;
+  height: 1200px;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+}
+.kotakgambarbanyakfavortie {
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kotakkecil {
+  background-color: #ffffff;
+  height: 400px;
+  width: 280px;
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.kotakgambar {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+}
+.tulisankotak {
+  font-family: Epilogue;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  text-align: start;
+}
+.tulisankotak1 {
+  font-family: Epilogue;
+  font-size: 9px;
+  color: #6b6b6b;
+  margin-bottom: 2px;
+  text-align: start;
+}
+
+.buttondel {
+  background-color: rgb(185, 53, 53);
+  width: 250px;
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+}
+
+/* Audio */
+audio {
+  width: 250px;
+  margin-bottom: -5px;
+  background-color: transparent;
+  border-radius: 10px;
+
+  padding: 15px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: 2px solid black;
+  padding: 0;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+  background-color: #1db954;
+  border-radius: 4px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  width: 70%;
+}
+audio::-webkit-media-controls-timeline {
+  width: 60px; /* Tinggi bar panjang lagu */
+}
+
+.back {
+  text-decoration: none;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+}
+/* End Audio */
+
+@media (max-width: 1200px) {
+  .namaartis {
+    font-size: 40px;
+  }
+  .back {
+    text-decoration: none;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 1008px) {
+  .namaartis {
+    font-size: 38px;
+  }
+
+  .kotakkecil {
+    height: 310px;
+    width: 200px;
+    margin: 30px;
+  }
+  .kotakgambar {
+    height: 150px;
+    width: 150px;
+  }
+  .tulisankotak {
+    font-size: 13px;
+  }
+  .tulisankotak1 {
+    font-size: 7px;
+  }
+  audio {
+    width: 150px;
+    height: 40px;
+
+    padding: 10px;
+  }
+  .buttondel {
+    width: 150px;
+    height: 20px;
+  }
+  .buttondel {
+    font-size: 10px;
+  }
+  .back {
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 734px) {
+  .namaartis {
+    font-size: 30px;
+  }
+
+  .namaartisdandesk {
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+  .upper1 {
+    height: 180px;
+    width: 1200px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .upper {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotakkecil {
+    height: 215px;
+    width: 150px;
+    margin: 20px;
+  }
+  .kotakgambar {
+    height: 100px;
+    width: 100px;
+  }
+  .tulisankotak {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  .tulisankotak1 {
+    font-size: 5px;
+  }
+  audio {
+    width: 100px;
+    height: 30px;
+
+    padding: 5px;
+  }
+  audio::-webkit-media-controls-timeline {
+    width: 30px; /* Tinggi bar panjang lagu */
+  }
+  .buttondel {
+    width: 100px;
+    height: 15px;
+  }
+  .buttondel {
+    font-size: 7px;
+  }
+  .buttondel svg {
+    width: 10px;
+  }
+  .back {
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+  }
+  audio {
+    margin-bottom: -5px;
+    background-color: transparent;
+    border-radius: 1px;
+    height: 20px;
+    padding: 1px;
+  }
+  audio::-webkit-media-controls-panel {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 0;
+  }
+
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    font-size: 1px;
+    color: #b3b3b3;
+  }
+
+  audio::-webkit-media-controls-play-button {
+    background-color: transparent;
+    border-radius: 1px;
+    height: 10px;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    width: 30%;
+  }
+  audio::-webkit-media-controls-timeline {
+    width: 30px; /* Tinggi bar panjang lagu */
+  }
+}
+@media (max-width: 510px) {
+  .namaartis {
+    font-size: 28px;
+  }
+
+  .namaartisdandesk {
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+  .upper1 {
+    height: 180px;
+    width: 1200px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .upper {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotakkecil {
+    height: 200px;
+    width: 130px;
+    margin: 20px;
+  }
+  .kotakgambar {
+    height: 90px;
+    width: 90px;
+  }
+  .tulisankotak {
+    font-size: 7px;
+    margin-top: 7px;
+  }
+  .tulisankotak1 {
+    font-size: 5px;
+  }
+  audio {
+    width: 80px;
+    height: 15px;
+    padding: 3px;
+  }
+  audio::-webkit-media-controls-timeline {
+    width: 10px; /* Tinggi bar panjang lagu */
+  }
+
+  .buttondel {
+    width: 80px;
+    height: 15px;
+  }
+  .buttondel {
+    font-size: 5px;
+  }
+  .buttondel svg {
+    width: 7px;
+  }
+  .back {
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+  }
+}
+@media (max-width: 310px) {
+  .namaartis {
+    font-size: 15px;
+  }
+  .back {
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+  }
+}
